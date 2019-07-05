@@ -1,0 +1,132 @@
+body{
+	background-color:#D5D4D4; 
+}
+.header-container{
+	background-color: black;
+	margin: 0 auto;
+	max-width: 1500px;
+}
+.witcher-logo{
+	width: 250px;
+
+}
+.wild-hunt{
+	width: 370px;
+}
+.flex2{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1500px;
+	background-color: #111111;
+	max-height: 100%;
+	color: #D5D4D4
+}
+.witcher-ger{
+	width: 300px;
+	margin-right: 20px;
+}
+.text{
+	margin-right: 30px;
+}
+span{
+	color: #7abaff;
+}
+.name{
+	font-size:20px;
+}
+.flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+@media (max-width: 1145px){
+	   .flex{
+	   	-ms-flex-wrap: wrap;
+	   	    flex-wrap: wrap;
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    }
+	    .witcher-ger{
+	    	width: 400px;
+	    }
+	    .text{
+	    	margin-top: 15px;
+	    }
+}
+
+@media(max-width: 667px){
+	.flex2{
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+
+	}
+}
+.div-geralt{
+	max-width: 1500px;
+	margin: 0 auto
+}
+.geralt{
+	width: 100%;
+}
+.container2{
+	margin: 0 auto;
+	max-width: 1500px;
+	background-color: #111111;
+}
+.container-2-wraper{
+	position: relative;
+	background-color: black;
+	margin: 0 auto;
+	max-width: 1500px;
+}
+.snow{
+	width: 100%;
+}
+.rojer{
+	position: absolute;
+	right: 35px;
+	top: 30px;
+}
+.rojer-2{
+	position: absolute;
+	right: 35px;
+	top: 365px;
+	width: 300px;
+}
+.rojer-3{
+	position: absolute;
+	right: 35px;
+	bottom: 30px;
+	width: 300px;
+}
+
+@media(max-width: 1000px){
+	.warp{
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+	.rojer{
+		width: 150px;
+	}
+	.rojer-2{
+		width: 150px;
+	}
+	.rojer-3{
+		width: 150px;
+	}
+}
